@@ -20,3 +20,10 @@
 * ext.kotlin_version = '2.0.21'
 * compileSdk = 34
 * minSdk = 21
+
+## 0.0.6
+
+* update dependencies
+* replace iOS CocoaPods with Swift Package Manager
+* Android Gradle Plugin 9.1.0, Kotlin 2.4.0, Gradle 9.3.1
+* compileSdk 36, minSdk 24, iOS 15.0

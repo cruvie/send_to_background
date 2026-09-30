@@ -11,10 +11,10 @@ public class SendToBackgroundPlugin: NSObject, FlutterPlugin {
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
     switch call.method {
     case "sendToBackground":
-               DispatchQueue.main.async {
-                 UIApplication.shared.perform(#selector(NSXPCConnection.suspend))
-               }
-               result(true)
+      DispatchQueue.main.async {
+        UIApplication.shared.perform(#selector(NSXPCConnection.suspend))
+      }
+      result(true)
     default:
       result(FlutterMethodNotImplemented)
     }
