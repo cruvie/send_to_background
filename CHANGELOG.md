@@ -25,5 +25,6 @@
 
 * update dependencies
 * replace iOS CocoaPods with Swift Package Manager
+* migrate Android plugin to built-in Kotlin
 * Android Gradle Plugin 9.1.0, Kotlin 2.4.0, Gradle 9.3.1
 * compileSdk 36, minSdk 24, iOS 15.0
